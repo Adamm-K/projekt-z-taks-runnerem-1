@@ -127,6 +127,7 @@
 
 .porfolio {
   background-color: #F2F2EE;
+  padding-bottom: 100px;
 }
 
 .portfolio-title {
@@ -172,6 +173,33 @@ h4 {
   padding-bottom: 20px;
 }
 
-.card-body {
+/* Footer */
+
+.footer {
+  margin: 30px auto;
+  background: #ffffff;
+  text-align: center;   
+}
+
+
+.socials i {
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background: black;
+  line-height: 40px;
+  text-align: center;
+  color: white; 
+}
+
+.socials {
+  text-align: center;
   
+}
+
+.absolute-footer {
+  position: absolute;
 }
