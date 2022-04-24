@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* nav */
 
 .bg-img {
@@ -13,14 +14,6 @@
   background-size: cover;
   background-position: center;
   color:white;
-}
-
-.nav {
-  
-}
-
-.nav2 {
-  
 }
 
 .nav3 {
@@ -201,5 +194,26 @@ h4 {
 }
 
 .absolute-footer {
+  position: relative;
+}
+
+.box {
   position: absolute;
 }
+
+/* Media */
+
+@media (max-width: 767px) {
+    
+  .service-parentofserviceboxes, .ourwork-parentofworkboxes, .contactflex {
+      flex-direction: column;
+  }
+  
+  .card-image {
+      height: 150px;
+      flex: 0 0 100%;
+      min-height: 300px;
+      width: 100%;
+  }
+  
+  }
