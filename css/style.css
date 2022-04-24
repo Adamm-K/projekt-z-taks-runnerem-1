@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 .nav3 {
@@ -61,6 +62,45 @@
   color: #ffffff;
   margin: auto 0;
   background-color: #efa306;
+}
+
+/* Our Service */
+.service {
+  background-color: #ffffff;
+}
+
+.service h2, p {
+  text-align: center;
+}
+
+.service3 {
+  text-align: center;
+}
+
+.service3 i {
+  color: #efa306;
+  font-size: 50px;
+}
+
+.service-title {
+  margin-top: 80px;
+}
+
+.service-services {
+  margin: 100px auto;
+}
+
+.service3 p {
+  font-size: 18px;
+}
+
+.service-title p {
+  margin: 0 auto;
+}
+
+.service-title h2 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
