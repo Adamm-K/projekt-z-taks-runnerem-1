@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 /* nav */
 .bg-img {
   background-image: url("https://images.pexels.com/photos/11157456/pexels-photo-11157456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
