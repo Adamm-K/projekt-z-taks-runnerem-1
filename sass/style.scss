@@ -9,7 +9,7 @@
 
 .bg-img {
   background-image: url("https://images.pexels.com/photos/11157456/pexels-photo-11157456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 600px;
+  min-height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -60,17 +60,17 @@
 }
 
 .btn {
+  display: block;
   padding: 20px;
-  
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   border-width: 2px;
-  
   color: #ffffff;
-  margin: auto 0;
+  margin: 0 auto;
   background-color:#efa306;
+  width: 200px;
 }
 
 
@@ -127,7 +127,6 @@
   padding-top: 80px;
   margin-bottom: 0px;
   text-align: center;
-
 }
 
 .portfolio-title h2 {
@@ -145,8 +144,6 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
-  
-  
 }
   
 .card {
@@ -189,18 +186,8 @@ h4 {
 }
 
 .socials {
-  text-align: center;
-  
+  text-align: center; 
 }
-
-.absolute-footer {
-  position: relative;
-}
-
-.box {
-  position: absolute;
-}
-
 /* Media */
 
 @media (max-width: 767px) {
@@ -210,10 +197,8 @@ h4 {
   }
   
   .card-image {
-      height: 150px;
       flex: 0 0 100%;
       min-height: 300px;
       width: 100%;
   }
-  
   }
